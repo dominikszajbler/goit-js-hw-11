@@ -5,7 +5,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import './css/styles.css';
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionSelector: 'title',
+//   captionSelector: 'title',
   close: true,
   nav: true,
   escKey: true,
@@ -23,7 +23,7 @@ const loadingButton = document.querySelector('.load-more');
 const input = document.querySelector("input[name='searchQuery']");
 const perPage = 40;
 let currentPage = 1;
-let totalPages = 0;
+// let totalPages = 0;
 
 const dataFromApi = {
   key: '35144361-9ec03ce098d095dbb4bda03de', // twój unikalny klucz dostępu do API - dostepny po zarejestrowaniu sie
