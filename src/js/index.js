@@ -7,7 +7,7 @@ const input = document.querySelector('.search-form-input');
 const btnSearch = document.querySelector('.search-form-button');
 const gallery = document.querySelector('.gallery');
 const btnLoadMore = document.querySelector('.load-more');
-let gallerySimpleLightbox = new SimpleLightbox('.gallery a');
+const gallerySimpleLightbox = new SimpleLightbox('.gallery a');
 
 btnLoadMore.style.display = 'none';
 
